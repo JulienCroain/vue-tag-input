@@ -12,8 +12,8 @@
     <span>Inside a Form</span>
     <form>
       <input
-        type="checkbox"
-        v-model="preventDefaultOnEnter">Prevent default on enter
+        v-model="preventDefaultOnEnter"
+        type="checkbox">Prevent default on enter
       <VueTagInput
         v-model="tags"
         :suggestions="suggestions"
