@@ -1,6 +1,6 @@
 {
-  "name": "vue-tag-input",
-  "version": "0.0.1",
+  "name": "vue-tag-autocomplete",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/vue-tag-input.js",
   "files": [
@@ -16,7 +16,10 @@
     "clean": "rm -rf dist"
   },
   "author": "Lucien Lee <lucien@lucienlee.cc>",
-  "repository": "git@github.com:LucienLee/vue-tag-input.git",
+  "contributors":[{
+    "name": "Julien Croain"
+  }],
+  "repository": "git@github.com:JulienCroain/vue-tag-input.git",
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^8.0.3",
@@ -47,5 +50,8 @@
     "snapshotSerializers": [
       "<rootDir>/node_modules/jest-serializer-vue"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -11,8 +11,8 @@ Customizable [Vue](https://vuejs.org) component for tag input, which support aut
 Recommand intall from CLI:
 
 ```bash
-npm install --save vue-tag-input // OR
-yarn add vue-tag-input
+npm install --save vue-tag-autocomplete // OR
+yarn add vue-tag-autocomplete
 ```
 
 If you want to include script directly:
