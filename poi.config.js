@@ -42,5 +42,6 @@ module.exports = (options = {}) => {
     html: false,
     extractCSS: !component,
     moduleName: componentName,
+    transformModules: ['string-width', 'strip-ansi', 'ansi-regex', 'is-fullwidth-code-point'],
   };
 };

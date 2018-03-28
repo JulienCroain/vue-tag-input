@@ -1,5 +1,5 @@
 # Vue Tag Input
-[![Travis](https://img.shields.io/travis/JulienCroain/vue-tag-input.svg)](https://travis-ci.org/JulienCroain/vue-tag-input/) [![npm](https://img.shields.io/npm/v/vue-tag-input.svg)](https://www.npmjs.com/package/vue-tag-input) [![Style Guide](https://img.shields.io/badge/Vue%20Style%20Guide-Recommended-brightgreen.svg)](https://vuejs.org/v2/style-guide)
+[![Travis](https://img.shields.io/travis/JulienCroain/vue-tag-input.svg)](https://travis-ci.org/JulienCroain/vue-tag-input/) [![npm](https://img.shields.io/npm/v/vue-tag-autocomplete.svg)](https://www.npmjs.com/package/vue-tag-autocomplete) [![Style Guide](https://img.shields.io/badge/Vue%20Style%20Guide-Recommended-brightgreen.svg)](https://vuejs.org/v2/style-guide)
 
 Customizable [Vue](https://vuejs.org) component for tag input, which support autocomplete.
 
@@ -19,10 +19,10 @@ If you want to include script directly:
 
 ```html
 <!-- Load Script --> 
-<script src="https://cdn.jsdelivr.net/npm/vue-tag-input/dist/umd/vue-tag-input.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-tag-autocomplete/dist/umd/vue-tag-input.js"></script>
 
 <!-- Load Style --> 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/vue-tag-input/dist/umd/vue-tag-input.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/vue-tag-autocomplete/dist/umd/vue-tag-input.css">
 ```
 
 ### Quick Example
@@ -330,6 +330,9 @@ npm run build
 
 ## Author
 Lucien Lee
+
+## Contributor
+Julien Croain
 
 ## License
 MIT

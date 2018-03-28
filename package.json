@@ -1,6 +1,6 @@
 {
   "name": "vue-tag-autocomplete",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/vue-tag-input.js",
   "files": [
@@ -16,9 +16,11 @@
     "clean": "rm -rf dist"
   },
   "author": "Lucien Lee <lucien@lucienlee.cc>",
-  "contributors":[{
-    "name": "Julien Croain"
-  }],
+  "contributors": [
+    {
+      "name": "Julien Croain"
+    }
+  ],
   "repository": "git@github.com:JulienCroain/vue-tag-input.git",
   "license": "MIT",
   "devDependencies": {
@@ -35,6 +37,8 @@
     "poi": "^9.6.4",
     "poi-preset-eslint": "^9.0.1",
     "poi-preset-transform-test-files": "^10.0.0",
+    "postcss-import": "^11.1.0",
+    "postcss-url": "^7.3.1",
     "sass-loader": "^6.0.6",
     "vue-test-utils": "^1.0.0-beta.9"
   },
