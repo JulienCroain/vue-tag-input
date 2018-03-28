@@ -1,5 +1,5 @@
 # Vue Tag Input
-[![Travis](https://img.shields.io/travis/LucienLee/vue-tag-input.svg)](https://travis-ci.org/LucienLee/vue-tag-input/) [![npm](https://img.shields.io/npm/v/vue-tag-input.svg)](https://www.npmjs.com/package/vue-tag-input) [![Style Guide](https://img.shields.io/badge/Vue%20Style%20Guide-Recommended-brightgreen.svg)](https://vuejs.org/v2/style-guide)
+[![Travis](https://img.shields.io/travis/JulienCroain/vue-tag-input.svg)](https://travis-ci.org/JulienCroain/vue-tag-input/) [![npm](https://img.shields.io/npm/v/vue-tag-input.svg)](https://www.npmjs.com/package/vue-tag-input) [![Style Guide](https://img.shields.io/badge/Vue%20Style%20Guide-Recommended-brightgreen.svg)](https://vuejs.org/v2/style-guide)
 
 Customizable [Vue](https://vuejs.org) component for tag input, which support autocomplete.
 
