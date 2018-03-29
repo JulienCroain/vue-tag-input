@@ -79,6 +79,11 @@ export default {
       required: false,
       default: false,
     },
+    maxInputLength: {
+      type: Number,
+      required: false,
+      default: Infinity,
+    },
     maxSuggestionsLength: {
       type: Number,
       required: false,
@@ -324,6 +329,7 @@ export default {
             onKeydown={this.handleKeydown}
             onFocus={this.handleFocus}
             onBlur={this.handleBlur}
+            maxlength={this.maxInputLength}
           />
           {this.showSuggestions ?
             <TagInputSuggestions

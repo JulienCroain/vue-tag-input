@@ -146,6 +146,10 @@ Allows users to add duplicated tags. If it's `false`, the duplicated tag would p
 Default: `false`  
 Add tag automatically when input field blur.
 
+#### maxInputLength - {Number}
+Default: `Infinity`  
+Maximum input length.
+
 #### maxSuggestionsLength - {Number}
 Default: `Infinity`  
 Maximum number of suggestions to display.
