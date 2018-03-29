@@ -264,7 +264,7 @@ export default {
       if (text === '') return;
 
       // Handle duplicates
-      const duplicate = this.normalizedTags.find(tag => tag.text === text);
+      const duplicate = this.normalizedTags.find(tag => tag.text.toLowerCase() === text.toLowerCase());
       if (!this.allowDuplicates && duplicate) {
         return playOnce(this.$el.querySelector(`[data-id="${duplicate.id}"]`), this.errorAninmatedClass);
       }
