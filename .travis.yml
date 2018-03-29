@@ -9,8 +9,10 @@ script:
 deploy:
   provider: npm
   email: julien.croain@gmail.com
+  skip_cleanup: true
   api_key:
-    secure: iJrQfFzpi/m8akXL5zIe63ZVVCHHsJfxJ+vNqNJlYZdOn4+TFTNFG4PijK/CtHWjWHyxZh0bJHtza3sAy3aJulalEMkZEizIuFnHkuDke9MD04veS18jtBJPWmH390xlk7sDFYAADYPQrGXVvEzgZqp/TQKeU1Zt1oNK3Qcy1ucpSxgAsvR4LIcd+PHsjVNnomCDGaooIsIusBjkDrdfV6carb4XtCjpLIfyXmRHyiGt5oL8ckjHnACaUKEsQXQvQpTwUMSc5iOsUBh4pwe8kOAN/AVNx4GTxM9qsSpqvMoMShJw0COwDHrKCdwq9MaUB76YdzPU5H70aHJlG7eDqxGstso2YhXG2JUq4iq1WPbo8Prt3mRgnbdlt9j7z2wrCSaDTd4M32YFv5J78r/djb/fHiQL7Zexj5JYf3iojX8AGU71n+4iTVM7OivBJk/TAN/y56Ja71oydXnggoNVUX622uOOWsB32xDcyy0M3xf0nml3p2ydWQsANsXO+YQBI5x8RQU4yxF2PkQ+vS85vVzzNr6uOed1aaGgb2C+ZekaCxf6Y/F/NRhKvruGkNDTpRDbYmaPrv2GdNleQRaCssjv1MuL7U6g88TdHQemtyRbSQRxVt5jBQU+/m42qF1g3FruwuaEVQbV7e6KJ4ybjPkbS9ZsCGuzMLrg4xP8PkQ=
+    secure: $NPM_SECURE_TOKEN
   on:
     tags: true
     repo: JulienCroain/vue-tag-input
+    branch: master

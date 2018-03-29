@@ -1,10 +1,10 @@
 {
   "name": "vue-tag-autocomplete",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "",
   "main": "dist/vue-tag-input.js",
   "files": [
-    "dist/umd"
+    "dist"
   ],
   "scripts": {
     "start": "poi",
