@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style lang="sass">
-.TagInput-suggestions
+ul.TagInput-suggestions
   position: absolute
   top: 100%
   left: 0
@@ -66,20 +66,18 @@ export default {
   border: 1px solid var(--border-color)
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12)
 
-.TagInput-suggestionItem
+li.TagInput-suggestionItem
   overflow: hidden
   white-space: nowrap
   text-overflow: ellipsis
   padding: 0.4em 0.8em
   cursor: pointer
-
-  & + .TagInput-suggestionItem
-    border-top: 1px solid var(--border-color)
+  border-top: 1px solid var(--border-color)
 
   &:hover
     background-color: rgba(0, 0, 0, 0.06)
 
-.TagInput-suggestionItem.is-active
+li.TagInput-suggestionItem.is-active
   background-color: rgba(#54bf8e, 0.2)
   color: #54bf8e
 

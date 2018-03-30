@@ -4,7 +4,7 @@
     <VueTagInput
       v-model="tags"
       :suggestions="suggestions"
-      :allow-duplicated="false"
+      :allow-duplicates="false"
       :only-from-suggestions="false"
       :quick-mode="true"
     />
@@ -17,7 +17,7 @@
       <VueTagInput
         v-model="tags"
         :suggestions="suggestions"
-        :allow-duplicated="false"
+        :allow-duplicates="false"
         :only-from-suggestions="false"
         :quick-mode="true"
         :prevent-default-on-enter="preventDefaultOnEnter"
@@ -36,8 +36,8 @@ export default {
   data() {
     return {
       tags: [],
-      // suggestions: ['Japan', 'Taiwan', 'Africa', 'America', 'Canada', 'Finland', 'China'],
-      suggestions: ['中國', '中文', '中午', '中飯'],
+      suggestions: ['Japan', 'Taiwan', 'Africa', 'America', 'Canada', 'Finland', 'China'],
+      // suggestions: ['中國', '中文', '中午', '中飯'],
       preventDefaultOnEnter: true,
     };
   },

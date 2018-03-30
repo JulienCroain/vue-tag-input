@@ -124,6 +124,21 @@ describe('Tag Input', () => {
       expect(wrapper.emitted()[EVENTS.ADD][0]).toEqual([query]);
     });
 
+    it('adds a tag from suggestion when input match', () => {
+      const suggestion = {
+        id: 123,
+        text: 'javascript',
+      };
+      const wrapper = createInstance({ suggestions: [suggestion] });
+      const inputWrapper = wrapper.find({ref: 'input'});
+
+      type(inputWrapper, query);
+      key(inputWrapper, 'enter');
+
+      expect(wrapper.emitted()[EVENTS.ADD]).toBeTruthy();
+      expect(wrapper.emitted()[EVENTS.ADD][0]).toEqual([suggestion]);
+    });
+
     it('can allow new, non-suggested tags to be added', () => {
       const wrapper = createInstance({ onlyFromSuggestions: false });
       const inputWrapper = wrapper.find({ref: 'input'});

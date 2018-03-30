@@ -274,6 +274,10 @@ export default {
         return playOnce(this.$el.querySelector(`[data-id="${duplicate.id}"]`), this.errorAninmatedClass);
       }
 
+      // Check if input match with existing suggestions
+      const existingSuggestion = this.normalizedSuggestions.find(tag => tag.text.toLowerCase() === text.toLowerCase());
+      input = existingSuggestion || input;
+
       // Add tag
       this.query = '';
       this.originalQuery = '';

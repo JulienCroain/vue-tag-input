@@ -156,7 +156,7 @@ Maximum number of suggestions to display.
 
 #### errorAninmatedClass - {String}
 Default: `error`
-The animation class would add on duplicated tag element when [`allowDuplicated`](#allowDuplicated---{Boolean}) is `false`. The default animation is shaking for 0.25s.
+The animation class would add on duplicated tag element when [`allowDuplicates`](#allowDuplicates---{Boolean}) is `false`. The default animation is shaking for 0.25s.
 
 #### tagStyle - {Object|Function}
 Default: `{}`
